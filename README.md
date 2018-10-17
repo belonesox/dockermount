@@ -10,25 +10,22 @@ dockermount /mnt/dockerimages/gifted_fermi
 ```
 and all guts of container with name «gifted_fermi» will be mounted to /mnt/dockerimages/
 
+And you can edit all files using IDE/Text editors with GUI, run git and other deploy operations 
+from shell of host box.
+
 ## Prerequisites
 - bindfs > 1.13.10
 
 ## Build binaries and install
-## Prerequisites
+### Prerequisites
 - golang/dep - dependency manager 
 
 ### Build
-1. Resolve dependencies 
-```bash
-dep ensure
-```
-2. Build binary
 ```bash
 ./compile
 ```
 
 ### Install
-1. Move binary to /usr/bin and change 
 ```bash
 sudo mv dockermount /usr/bin/
 ```
