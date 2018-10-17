@@ -1,0 +1,5 @@
+#!/bin/sh
+dep ensure
+go build
+sudo chown root dockermount
+sudo chmod a+s dockermount
