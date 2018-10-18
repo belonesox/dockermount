@@ -27,7 +27,9 @@ from shell of host box.
 
 ### Install
 ```bash
-sudo mv dockermount /usr/bin/
+sudo mv dockermount /usr/bin/dockermount
+sudo chown root /usr/bin/dockermount
+sudo chmod a+s /usr/bin/dockermount
 ```
 
 ## License
