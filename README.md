@@ -16,20 +16,22 @@ from shell of host box.
 ## Prerequisites
 - bindfs > 1.13.10
 
-## Build binaries and install
+## Install
+```bash
+sudo mv dockermount /usr/bin/dockermount
+sudo chown root /usr/bin/dockermount
+sudo chmod a+s /usr/bin/dockermount
+```
+
+## Build binary from source.
+Not needed if you download binary.
+
 ### Prerequisites
 - golang/dep - dependency manager 
 
 ### Build
 ```bash
 ./compile
-```
-
-### Install
-```bash
-sudo mv dockermount /usr/bin/dockermount
-sudo chown root /usr/bin/dockermount
-sudo chmod a+s /usr/bin/dockermount
 ```
 
 ## License
