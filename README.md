@@ -17,6 +17,9 @@ from shell of host box.
 - bindfs > 1.13.10
 
 ## Install
+
+Download+untar dockermount from releases. 
+
 ```bash
 sudo mv dockermount /usr/bin/dockermount
 sudo chown root /usr/bin/dockermount
